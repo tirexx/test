@@ -57,10 +57,13 @@ VIN decode reference: `5YJSA1E6` corresponds to a 2023 Model S Plaid, 1,020 hp, 
 | Premium Connectivity | Active, **expires 1 Aug 2026** |
 | Last "up to date" check | 17 May at 12:39 |
 
-### Notable changes introduced in 2026.2.9.3 that affect terminology in this car
+### Notable changes introduced in 2026.2.9 / 2026.2.9.3 that affect this car's UI
 
-- "FSD Computer" was renamed to **"AI Computer"** in the UI (hence the label on the screen).
+- The **Controls → Autopilot** menu was renamed to **Controls → Self-Driving** (regulator-driven cosmetic rename pushed by California DMV; behavior unchanged).
+- "FSD Computer" was renamed to **"AI Computer"** in the UI (hence the label seen on this car's screen).
 - "Navigate on Autopilot" was renamed to **"Navigate on Autosteer"**.
+- The Autosteer steering-wheel icon next to the speed was removed; the engaged state now shows the text **"Self-Driving"** in blue under the speed.
+- New **Brake Confirm** toggle (default off) added under Self-Driving.
 - Adds Active Road Noise Reduction, Grok with Navigation Commands (Beta), Arrival Options, charge-cable unlatch via rear-left door handle, and various cosmetic/UX features.
 
 ## Available driver-assist features on this specific car (today)
@@ -85,7 +88,7 @@ Region-gated (present on the car but only unlocked once the user's EU country ap
 
 - **Controls → Software** — model, VIN, AI computer, FSD package status, Premium Connectivity expiry, software version, navigation data version.
 - **Controls → Software → Additional Vehicle Information** — detailed hardware spec list (motors, brakes, suspension, audio, infotainment, modem, MAC, IMEI, charging, garage door).
-- **Controls → Autopilot** — live list of toggles available, gated by package + region.
+- **Controls → Self-Driving** (formerly **Controls → Autopilot** before software 2026.2.9) — live list of toggles available, gated by package + region.
 - **Controls → Upgrades** — purchase / subscription status (not needed here, FSD is already included).
 
 ## Sources used for validation
@@ -101,3 +104,5 @@ Region-gated (present on the car but only unlocked once the user's EU country ap
 - Wards Auto — Netherlands type approval of FSD Supervised (April 2026) — <https://www.wardsauto.com/news/tesla-fsd-supervised-approved-the-netherlands/817279/>
 - Drive Tesla Canada — Swedish Transport Agency on EU-wide rollout 2026 — <https://driveteslacanada.ca/news/tesla-fsd-europe-approval-sweden-2026/>
 - Tesla North — Single Pull vs. Double Pull Autosteer on stalkless yoke — <https://teslanorth.com/2023/11/15/tesla-debuts-single-pull-autosteer-feature-for-cars-with-stalks>
+- Not a Tesla App — Tesla removes "Autopilot" name; menu becomes "Self-Driving" in 2026.2.9 — <https://www.notateslaapp.com/news/3719/tesla-kills-the-autopilot-name-in-new-software-update>
+- Tessie — 2026.2.9 release notes (Controls → Self-Driving, Brake Confirm, AI Computer rename) — <https://stats.tessie.com/versions/2026.2.9>
